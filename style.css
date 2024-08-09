@@ -41,3 +41,90 @@ input{
     padding-left: 10px;
     
 }
+
+
+/* small screen */
+
+@media(max-width: 100px) {
+    nav {
+        height: 77px;
+    }
+    #logo {
+        width: 100px;
+        height: 100px;
+    }
+    input {
+        width: 240px;
+        height: 30px;
+    }
+    .ct {
+        padding: 0 20px; 
+        width: 20px;
+        height: 20px;
+    }
+    .ct img {
+        padding-left: 7px;
+    }
+
+
+ /* mobile */
+
+@media(max-width:400px){
+    nav {
+        height: 60px;
+
+    }
+    #logo {
+        width: 60px;
+        height: 50px;
+    }
+    input {
+        width: 168px;
+        height: 23px;
+    }
+    .ct {
+        padding: 0 15px;
+        width: 14px;
+        height: 14px;
+    }
+    .ct img {
+        padding-left: 5px;
+    }
+}
+
+}
+
+/* home */
+
+
+.home {
+    display: grid;
+    grid-template-columns: 20% 75%;
+    margin: 30px 0;
+    justify-content: space-evenly;
+}
+
+.cato{
+     background-color: aliceblue;
+     border: 1px solid whitesmoke;
+     padding: 20px;
+}
+
+.cato h2 {
+    background-color: rgba(71, 71, 186, 0.884);
+    color: aliceblue;
+    text-align: center;
+    padding-bottom:  5px;
+    margin-bottom: 20px;
+}
+
+.cato li {
+    list-style-type: none;
+    padding: 7px 0;
+    padding-left: 20px
+}
+
+.cato li a {
+    text-decoration: none;
+    color: black;
+}
