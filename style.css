@@ -101,7 +101,28 @@ input{
 .mobile span p {
     font-size: medium;
 }
+/*  lap */
 
+.laptop {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+}
+
+.laptop div {
+    margin-bottom: 10px;
+}
+
+.laptop div img {
+    height: 170px;
+    width: 180px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+
+}
 
  /* mobile */
 
@@ -275,3 +296,89 @@ input{
 .mobile :hover {
     background-color: crimson;
 }
+
+/* laptop */
+
+#lp-head {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.laptop {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: space-around;
+
+}
+
+.laptop div {
+    align-items: center;
+    background-color: paleturquoise;
+    border: 1px soli black;
+    text-align: center;
+}
+
+.laptop div img {
+    height: 160px;
+    width: 180px;
+    border-radius: 5px;
+    margin: 15px;
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+
+.noti {
+    background-color: blue;
+    color: white;
+    width: 90px;
+    height: 40px;
+    padding: 0;
+    margin-top: 10px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.noti p {
+    padding-top: 10px;
+    font-size: small;
+    
+}
+
+.laptop h4 {
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+
+#watch-head {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+
+}
+
+.smart {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+}
+
+.smart div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 20px 50px;
+
+}
+
+.smart div img {
+    width: 200px;
+    height: 190px;
+}
+
